@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Cindy Dunham</title>
-  </head>
-  <body>
-    <h1>Cindy Dunham</h1>
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Cindy Dunham</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body>
+        <header>
+            <img src="./images/CindyPicture.jpeg" alt="Profile Photo"
+            width="400"
+            height="400" />
+            <h1>Cindy Dunham - Full Stack Developer</h1>
+            <!-- navigation bar with css flexbox attributes -->
+            <navbar>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <!-- Anchor element -->
+                        <a href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact">Let's Connect!</a>
+                    </li>
+                </ul>
+            </navbar>
+        </header> <br />
+
+        <p>Let's Connect!
+            <!-- input form -->
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" placeholder=" " name="name" id="name" />
+                <label for="email">Email:</label>
+                <input type="email" placeholder="  " name="email" id="email" />
+                <label for="phone">Phone Number:</label>
+                <input type="tel" placeholder="  " name="phone" id="phone"/>
+               <label for="contact-message">Message</label>
+               <textarea id="contact-message" placeholder="Message"></textarea>
+               <button type="submit">Submit</button>
+            </form> </div> <br />
         
-    <h2>An Eye for Creative Design</h2>
-  </body>
+        <footer class="footer">
+            &copy; 2021, Cindy Dunham
+        </footer>
+    </body>
 </html>
