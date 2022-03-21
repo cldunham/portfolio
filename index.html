@@ -9,38 +9,81 @@
 
     <body>
         <header>
-            <h1>Cindy Dunham - Full Stack Developer</h1>
-            <!-- navigation bar with css flexbox attributes -->
-            <navbar>
-                <ul class="nav-list">
-                    <li class="nav-item">
+            <img src="./assets/images/CindyPicture.jpeg" alt="Profile Photo"
+            width="100"
+            height="100" />
+            <h1>
+                <a href="https://www.linkedin.com/in/cindy-dunham-809042186">Cindy Dunham - Full Stack Developer</a>
+            </h1>
+            <nav>
+                <!-- unordered list element-->
+                <ul>
+                     <!-- List item element-->
+                     <li>
                         <!-- Anchor element -->
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
                         <a href="#work">Work</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#about">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact">Let's Connect!</a>
+                    <li>
+                        <a href="#lets-connect">Let's Connect!</a>
                     </li>
                 </ul>
-            </navbar>
-        </header> <br />
-
-        <p>Let's Connect!
-            <!-- input form -->
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" placeholder=" " name="name" id="name" />
-                <label for="email">Email:</label>
-                <input type="email" placeholder="  " name="email" id="email" />
-                <label for="phone">Phone Number:</label>
-                <input type="tel" placeholder="  " name="phone" id="phone"/>
-               <label for="contact-message">Message</label>
-               <textarea id="contact-message" placeholder="Message"></textarea>
-               <button type="submit">Submit</button>
-            </form> </div> <br />
+            </nav>
+        </header>
         
+        <!-- hero/jumbotron -->
+        <section>
+        </section>
+
+        <!-- "about me" section -->
+        <section id="About Me" class="steps">
+        <h2 class="section-title secondary-border">About Me</h2>
+        <p>My recent work experience includes Project Management for Virginia 529. I recently sold a business, Colonial CrossFit, LLC, and currently in school at the University of Richmond for my full stack developer certification.</p>
+        </section>
+            
+        <!-- "work" section -->
+        <section id="Work" class="intro">
+        <h2 class="section-title primary-border">Work</h2>
+        <p>
+            <div>
+                <h3>Project 1: Fridge to Feast</h3>
+                <a href="https://natejboucher.github.io/safecation/" target="_blank">
+                <img src="./assets/images/FridgeToFeastSnip.JPG" alt="Food Application"/></a>
+              </div>
+
+              <div>
+                <h3>Project 2: Sk8Spotter</h3>
+                <a href="https://sk8spotter.herokuapp.com/" target="_blank">
+                <img src="./assets/images/Sk8SpotterSnip.JPG" alt="Skate Park Finder"/></a>
+              </div>
+            
+              <div>
+                <h3>Challenge: Run Buddy</h3>
+                <img src="./assets/images/Run Buddy.JPG" alt="Run Buddy Application"/>
+              </div>
+            </section>
+        </p>
+        </section>
+
+        <!-- "contact" section -->
+        <section id="Contact" class="steps">
+            <h2 class="section-title secondary-border">Let's Connect!</h2>
+                <!-- input form -->
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder=" " name="name" id="name" />
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="  " name="email" id="email" />
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" placeholder="  " name="phone" id="phone"/>
+                   <label for="contact-message">Message</label>
+                   <textarea id="contact-message" placeholder="Message"></textarea>
+                   <button type="submit">Submit</button>
+                </form>
+            </section>
+
         <footer class="footer">
             &copy; 2021, Cindy Dunham
         </footer>
